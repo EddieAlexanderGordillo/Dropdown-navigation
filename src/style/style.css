@@ -1,0 +1,22 @@
+:root {
+    --almostWhite: hsl(0, 0%, 98%);
+    --mediumGray: hsl(0, 0%, 41%);
+    --almostBlack: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--almostWhite);
+}
