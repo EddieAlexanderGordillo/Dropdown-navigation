@@ -219,11 +219,3 @@ body {
 .footer__clients img {
     width: 15%;
 }
-
-.prueba {
-    width: 1000px;
-    height: 50vh;
-    background-image: url(../assests/images/image-hero-mobile.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
