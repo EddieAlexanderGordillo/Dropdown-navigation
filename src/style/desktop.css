@@ -54,7 +54,7 @@
     .dropdown {
         width: max-content;
         background-color: white;
-        box-shadow: 2px 6px 19px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: var(--shadow);
         border-radius: 10px;
         display: flex;
         flex-direction: column;

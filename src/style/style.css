@@ -3,6 +3,7 @@
     --mediumGray: hsl(0, 0%, 41%);
     --almostBlack: hsl(0, 0%, 8%);
     --backdrop: hsl(0deg 0% 0% / 40%);
+    --shadow: 2px 6px 19px 0px rgba(0, 0, 0, 0.3);
 }
 
 * {
