@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../src/style/style.css" />
+    <link rel="stylesheet" href="../src/style/desktop.css" />
   </head>
   <body>
     <header class="header">
@@ -118,9 +119,17 @@
       </nav>
     </header>
     <main class="main">
-      <figure class="main__hero">
-        <img src="../src/assests/images/image-hero-mobile.png" alt="hero" />
-      </figure>
+      <picture class="main__hero">
+        <source
+          srcset="../src/assests/images/image-hero-desktop.png"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../src/assests/images/image-hero-mobile.png"
+          media="(min-width: 320px)"
+        />
+        <img src="" alt="hero" />
+      </picture>
       <section class="main_section-info">
         <h1 class="main__title">Make remote work</h1>
         <p class="main__paragraph">
