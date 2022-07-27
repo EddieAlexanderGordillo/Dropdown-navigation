@@ -75,7 +75,7 @@ body {
     flex-direction: column;
     padding: 25px;
     overflow: auto;
-    display: none;
+
 }
 
 
@@ -92,9 +92,6 @@ body {
 }
 
 
-.nav__menu--toggle {
-    display: block;
-}
 
 .menu__item {
     width: 100%;
@@ -104,6 +101,10 @@ body {
     margin-bottom: 30px;
 }
 
+.dropdown {
+    display: none;
+
+}
 
 .item__dropdown {
     font-size: 1.6rem;
@@ -111,12 +112,11 @@ body {
     list-style: none;
     margin-top: 20px;
     padding-left: 15px;
-    display: none;
 }
 
 
 .item__dropdown--toggle {
-    display: block;
+    display: grid;
 }
 
 
@@ -138,6 +138,15 @@ body {
     font-weight: 600;
 }
 
+.menu--activo {
+    display: flex;
+
+}
+
+
+.arrow-up {
+    display: none;
+}
 
 .account {
     width: 100%;
